@@ -1,5 +1,13 @@
-# DECODE MORSE CODE
-## Decoding morse code with ruby
+# Ruby Enumerable
+## Created a module MyEnumerable that implements the following methods (they have the same functionality as methods in Enumerable):
+- #all?
+- #any?
+- #filter
+
+Each class and module has a separate .rb file.
+
+## Screenshot
+![Example screenshot](img/screenshot.png)
 
 	
 ## Technologies
@@ -9,10 +17,16 @@ Project is created with:
  ## Setup
 To run this project, install it locally using:
 - cd Desktop
-- git clone https://github.com/VuDej/decode-morse.git
+- git clone https://github.com/mugishasam123/enumerable.git
 - irb
-- require "./decode_morse.rb"
-- decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+- require "./my_list.rb"
+- list = MyList.new(1, 2, 3, 4)
+- list.all? { |e| e < 5 }
+- list.all? { |e| e > 5 }
+- list.any? { |e| e == 2 }
+- list.filter?(&:even?)
+
+
 
 
 ## Authors
